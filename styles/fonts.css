@@ -1,0 +1,140 @@
+
+
+/* Font Family */
+
+@font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-ExtraLight.ttf');
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-Light.ttf');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-Regular.ttf');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-Medium.ttf');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-ExtraBold.ttf');
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url('./fonts/montserrat/Montserrat-Bold.ttf');
+    font-weight: 900;
+  }
+  
+  
+  
+  /* Poppins */
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-ExtraLight.ttf');
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-Light.ttf');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-Regular.ttf');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-Medium.ttf');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-SemiBold.ttf');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-Bold.ttf');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-ExtraBold.ttf');
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./fonts/poppins/Poppins-Bold.ttf');
+    font-weight: 900;
+  }
+  
+  /* Roboto */
+  @font-face {
+    font-family: Roboto;
+    src: url('./fonts/roboto/Roboto-Thin.ttf');
+    font-weight: 100;
+  }
+  
+  @font-face {
+    font-family: Roboto;
+    src: url('./fonts/roboto/Roboto-Light.ttf');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: Roboto;
+    src: url('./fonts/roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: Roboto;
+    src: url('./fonts/roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: Roboto;
+    src: url('./fonts/roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: Roboto;
+    src: url('./fonts/roboto/Roboto-Bold.ttf');
+    font-weight: 900;
+  }

@@ -1,0 +1,306 @@
+a{
+  text-decoration: none!important;
+}
+
+
+
+
+#nprogress{
+  pointer-events:none
+}
+
+#nprogress .bar{
+  background: #FE6022;
+  position:fixed;
+  z-index:1031;
+  top:0;
+  left:0;
+  width:100%;
+  height:5px
+}
+
+#nprogress .peg{
+  display:block;
+  position:absolute;
+  right:0;
+  width:100px;
+  height:100%;
+  box-shadow:0 0 10px #FE6022,0 0 5px #FE6022;
+  opacity:1;
+  -webkit-transform:rotate(3deg) translate(0,-4px);
+  -ms-transform:rotate(3deg) translate(0,-4px);
+  transform:rotate(3deg) translate(0,-4px)
+}
+
+#nprogress .spinner{
+  display:block;
+  position:fixed;
+  z-index:1031;
+  top:15px;
+  right:15px
+}
+
+#nprogress .spinner-icon{
+  width:18px;
+  height:18px;
+  box-sizing:border-box;
+  border:2px solid transparent;
+  border-top-color:#FE6022;
+  border-left-color:#FE6022;
+  border-radius:50%;
+  -webkit-animation:nprogress-spinner 400ms linear infinite;
+  animation:nprogress-spinner 400ms linear infinite
+}
+  
+.nprogress-custom-parent{
+  overflow:hidden;
+  position:relative
+}
+
+.nprogress-custom-parent #nprogress .bar,.nprogress-custom-parent #nprogress .spinner{
+ position:absolute
+}
+
+@-webkit-keyframes nprogress-spinner{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}@keyframes nprogress-spinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+
+
+
+
+
+
+/*---------------------- Colors----------------------------------------- */
+.text-primary-base{
+   color: #3281f2 ;
+}
+
+.text-primary-contrast{
+  color: white;
+}
+
+.text-primary-black{
+  color: #6c757d;
+}
+
+
+
+.bg-primary-base{
+  background-color: #3281f2;
+}
+
+.bg-primary-contrast{
+ background-color: white;
+}
+
+
+/*--------------Typography------------------------------ */
+
+.font-weight-100{
+  font-weight: 100;
+}
+
+.font-weight-200{
+  font-weight: 200;
+}
+
+.font-weight-300{
+  font-weight: 300;
+}
+
+.font-weight-400{
+  font-weight: 400;
+}
+
+.font-weight-500{
+  font-weight: 500;
+}
+
+.font-weight-600{
+  font-weight: 600;
+}
+
+.font-weight-700{
+  font-weight: 700;
+}
+
+.font-weight-800{
+  font-weight: 800;
+}
+
+.font-weight-900{
+  font-weight: 900;
+}
+
+
+
+
+.font-poppins{
+  font-family: Poppins;
+}
+
+.font-montserrat{
+font-family: Montserrat;
+}
+
+.font-roboto{
+  font-family: Roboto;
+}
+
+
+
+/*--------------presets------------------------------ */
+
+/* Buttons */
+.btn-1{
+  font-size: 14px;
+  border: 0px;
+  border-radius: 2px;
+  padding: 6px 19px;
+}
+
+
+/* form */
+
+.form-label{
+  font-size: 15px;
+  padding-bottom: 7px;
+  color: #5e5959;
+}
+
+.form-control{
+font-size: .875rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+}
+
+.page-title-box {
+  padding: 17px 14px;
+  background: white;
+  margin-bottom: 12px;
+}
+
+.page-title-box h4{
+  font-weight: 400;
+  font-size: 20px !important;
+  color: #000000;
+}
+
+.page-title-box li{
+  font-size: .875rem;
+  color: #000000;
+}
+
+.form-error{
+  padding-top: 8px;
+  color: red;
+}
+
+
+
+
+
+
+
+/* Admin Panel */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  
+  .page-title-box{
+      flex-direction: column !important;
+  }
+  
+  .page-title-box li {
+      display: block;
+      width: 100%;
+      text-align: center;
+  }
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  
+  .main-content .list-container {
+      position: absolute;
+      z-index: 01;
+      background: #3281f2;
+      height: calc(100% - 106.63px)!important;
+  }
+
+  .link-title {
+      color: white!important;
+  }
+
+  .icon {
+      color: white!important;
+  }
+
+  .sidebar-hide .list-container  {
+      display: none!important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+
+
+}
